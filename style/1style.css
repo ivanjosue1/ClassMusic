@@ -1,0 +1,221 @@
+
+.banner{
+    width: 100%;
+}
+
+/* Barra de inicio-perfil-eventos-clases-contacto*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4040CC;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #0b131a;
+  }
+
+/*Color de fondo "centro"*/
+main{
+    background-color: #F1F1F1;
+}
+/*Medios de pago*/
+.center{
+    display: flex;
+    justify-content: center; 
+    padding: 40px;
+}
+.center img{
+    width: 70vw;
+}
+/*primera seccion "Biografia"*/
+ .primero{
+    position: relative;
+    left: 27%;
+ }
+.capa{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.7;
+    
+ }   
+.holaquehace{
+    z-index: 1;
+    width: 540px;
+    height: 440px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+ 
+}
+.holaquehace img{
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+.leer{
+        background-color: #ff2323;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+.reservas{
+
+    background-color: #ff2323;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*Section 2 eventos-fotografias*/
+/*Eventos*/
+.denuevo h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+}
+.iman{
+    width: 100%;
+    
+    
+}
+.leer1{
+    background-color: #ff2323;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+/*Fotografias*/
+.denuevo h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+}
+.adios{
+    width: 100%;
+}
+.leer2{
+
+    background-color: #ff2323;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.music{
+    text-align: center;
+    text-transform: uppercase;
+  color: #4CAF50;
+  
+}
+.autor{
+    text-align: center;
+}
+
+
+/*Barra final -Redes sociales*/
+.Redes{
+    background-color: #001630;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    size: 100px;
+    padding-top: 3%;
+    margin: 0;
+    padding: 0;
+}
+.final{
+    color: #F1F1F1;
+    background-color: #001630;
+    margin: 0;
+    padding: 0;
+}
+   
+ 
+@media(min-width: 480px){
+    .banner{
+    height: 200px;
+    }
+    .center{
+padding: 10px;
+    }
+    main{
+      background-color: rgb(255, 255, 255);
+            }
+
+}
+
+@media(min-width: 768px){
+    .banner{
+        height: 400px;
+        }
+        .center{
+            padding: 30px;
+                }
+                main{
+                    background-color: #F1F1F1;
+                          }
+    
+}
+
+@media(min-width: 1024px){
+    main{
+        background-color: #f8f8f8;
+              }
+
+}
